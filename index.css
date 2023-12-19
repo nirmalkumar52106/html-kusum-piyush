@@ -1,0 +1,30 @@
+*{margin: 0;padding: 0;font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;}
+body{background-color: #e5e3e3}
+/* header css .......................................*/
+#header{padding: 14px 70px;background-color: #fff;}
+.header-in{display: flex;justify-content: space-between;align-items: center;}
+.side-content{display: flex;align-items: center;}
+#header .bx{padding: 0px 18px;}
+ #header .input input{text-align: start;
+    padding: 10px 323px 10px 12px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-right: 108px;
+    border: none;
+    outline: none;
+    background: transparent;}
+    .profile select{border: none;}
+    .side-content i {margin-right: 3px;}
+    .side-content .cart, .profile , .seller , .dot{font-size: 18px;}
+
+    /* top-cards css////////////////// */
+    #top-cards{ background: white;  margin: 12px;}
+    #top-cards .cards-in{display: flex;align-items: center;justify-content: center;
+    width: 80%;margin: auto;}
+    #top-cards .cards-in .bx{width: 10%;margin: 0px 5px;padding: 10px;text-align: center;}
+    #top-cards .cards-in .bx h3{font-size: 16px;}
+
+    /* background-image */
+    #background-image{background-image: url("./images//background.jpg");
+    background-repeat: no-repeat;background-size: cover;background-position: 100%;
+height: 320px;margin: 10px;}
